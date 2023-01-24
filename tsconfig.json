@@ -1,3 +1,9 @@
 {
-    "compilerOptions": {}
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "preserve",
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
