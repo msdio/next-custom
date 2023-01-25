@@ -1,9 +1,0 @@
-{
-  "name": "next-cna",
-  "version": "1.0.0",
-  "description": "next with create-next-app",
-  "main": "index.js",
-  "repository": "https://github.com/msdio/next-custom.git",
-  "author": "msdio <rlagofka1@naver.com>",
-  "license": "MIT"
-}
