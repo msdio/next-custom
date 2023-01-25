@@ -7,7 +7,7 @@
     "node": true
   },
   "extends": ["next/core-web-vitals", "prettier"],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "react"],
 
   "settings": {
     "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
