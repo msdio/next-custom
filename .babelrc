@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "next/babel",
+    {
+      "preset-env": {
+        "targets": {
+          "esmodules": true,
+          "browsers": ["last 2 versions"]
+        }
+      },
+      "preset-react": {
+        "runtime": "automatic"
+      },
+      "transform-runtime": {},
+      "styled-jsx": {},
+      "class-properties": {}
+    }
+  ],
+  "plugins": ["@babel/plugin-proposal-do-expressions"]
+}
