@@ -9,7 +9,8 @@
         }
       },
       "preset-react": {
-        "runtime": "automatic"
+        "runtime": "automatic",
+        "importSource": "@emotion/"
       },
       "transform-runtime": {},
       "styled-jsx": {},
