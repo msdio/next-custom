@@ -1,34 +1,47 @@
 {
-    "name": "next-custom",
-    "version": "1.0.0",
-    "description": "customize next with webpack",
-    "main": "index.js",
-    "repository": "https://github.com/msdio/next-custom.git",
-    "author": "msdio <rlagofka1@gmail.com>",
-    "license": "MIT",
-    "private": false,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
-    },
-    "dependencies": {
-        "@emotion/babel-plugin": "^11.10.5",
-        "@emotion/react": "^11.10.5",
-        "@emotion/styled": "^11.10.5",
-        "next": "^13.1.4",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@next/eslint-plugin-next": "^13.1.5",
-        "@types/node": "^18.11.18",
-        "@types/react": "^18.0.27",
-        "@types/react-dom": "^18.0.10",
-        "eslint": "8.32.0",
-        "eslint-config-next": "13.1.5",
-        "prettier": "2.8.3",
-        "typescript": "^4.9.4"
-    }
+  "name": "next-custom",
+  "version": "1.0.0",
+  "description": "customize next with webpack",
+  "main": "index.js",
+  "repository": "https://github.com/msdio/next-custom.git",
+  "author": "msdio <rlagofka1@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@emotion/babel-plugin": "^11.10.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "next": "^13.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@next/eslint-plugin-next": "^13.1.5",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-webpack5": "^6.5.15",
+    "@storybook/manager-webpack5": "^6.5.15",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "babel-loader": "^8.3.0",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.5",
+    "eslint-plugin-storybook": "^0.6.10",
+    "prettier": "2.8.3",
+    "typescript": "^4.9.4"
+  }
 }
