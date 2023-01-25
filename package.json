@@ -1,31 +1,9 @@
 {
-    "name": "next-custom",
-    "version": "1.0.0",
-    "description": "customize next with webpack",
-    "main": "index.js",
-    "repository": "https://github.com/msdio/next-custom.git",
-    "author": "msdio <rlagofka1@gmail.com>",
-    "license": "MIT",
-    "private": false,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
-    },
-    "dependencies": {
-        "next": "^13.1.4",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@next/eslint-plugin-next": "^13.1.5",
-        "@types/node": "^18.11.18",
-        "@types/react": "^18.0.27",
-        "@types/react-dom": "^18.0.10",
-        "eslint": "8.32.0",
-        "eslint-config-next": "13.1.5",
-        "prettier": "2.8.3",
-        "typescript": "^4.9.4"
-    }
+  "name": "next-cna",
+  "version": "1.0.0",
+  "description": "next with create-next-app",
+  "main": "index.js",
+  "repository": "https://github.com/msdio/next-custom.git",
+  "author": "msdio <rlagofka1@naver.com>",
+  "license": "MIT"
 }
