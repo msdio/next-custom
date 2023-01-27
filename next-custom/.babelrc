@@ -9,12 +9,12 @@
         },
         "preset-env": {
           "targets": {
-            "esmodules": true,
-            "browsers": ["last 2 versions"]
+            "esmodules": true
+            // "browsers": ["last 2 versions"]
           }
         }
       }
     ]
   ],
-  "plugins": ["@emotion"]
+  "plugins": ["@emotion/babel-plugin"]
 }

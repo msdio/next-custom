@@ -15,7 +15,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "removeComments": true,
-    "incremental": true
+    "incremental": true,
+    "jsxImportSource": "@emotion/react"
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
